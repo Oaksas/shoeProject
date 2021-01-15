@@ -1,0 +1,93 @@
+.nav-link:hover{
+    color:white ;
+    background-color: black;
+}
+
+ .dropdown .dropdown-menu {
+
+    transition: all 0.3s;
+    opacity: 0;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    max-height: 300px;
+    opacity: 1;
+  }
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px ;
+    transition: 1s;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    
+}
+nav{
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+.navbar-brand{
+    font-family: 'Yeon Sung', cursive;
+    font-size: 30px;
+}
+/* class.html css
+*/
+.navbar-brand a:hover {
+color: aqua;}
+
+.footer{
+    background-color: #003366;
+    color: white;
+}
+.row img{
+    border-radius: 100%;
+}
+h1 { 
+    color:green; 
+} 
+.xyz { 
+    background-size: auto; 
+    text-align: center; 
+    padding-top: 100px; 
+} 
+.btn-circle.btn-sm { 
+    width: 30px; 
+    height: 30px; 
+    padding: 6px 0px; 
+    border-radius: 15px; 
+    font-size: 8px; 
+    text-align: center; 
+} 
+.btn-circle.btn-md { 
+    width: 50px; 
+    height: 50px; 
+    padding: 7px 10px; 
+    border-radius: 25px; 
+    font-size: 10px; 
+    text-align: center; 
+} 
+.btn-circle.btn-sm { 
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+} 
+.btn-secondary{
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+.row{
+    margin-bottom: 20px;
+}
+
+
+
